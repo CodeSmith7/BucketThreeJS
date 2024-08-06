@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Three.js basic</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            body {
+                overflow-x: hidden;
+                margin: 0px;
+                font-family: monospace;
+                color: white;
+            }
+
+            canvas {
+                position: fixed;
+                top: 0;
+                left: 0;
+            }
+
+            main {
+                width: 100vw;
+                height: 200vw;
+                z-index: 99;
+                position: absolute;
+                justify-content: center;
+                text-align: center;
+                pointer-events: none;
+                font-size: 5vh;
+            }
+
+            section {
+                min-height: 100vh;
+                padding: 20px;
+                font-size: 4vh;
+            }
+
+            #scrollProgress {
+                position: fixed;
+                bottom: 10px;
+                left: 10px;
+                z-index: 99;
+                font-size: 3vh;
+            }
+
+            #vwSrcLink {
+                position: fixed;
+                z-index: 99;
+            }
+        </style>
+
+      <script type="module" crossorigin src="/assets/index-Cx0zWO26.js"></script>
+    </head>
+
+    <body>
+        <span id="scrollProgress"></span>
+        <main>
+            <h1>Animate Coke Can on Scroll</h1>
+            <section>
+                <h2>Begin scrolling to see things change</h2>
+            </section>
+            <section>
+                <h2>Changing Objects Position</h2>
+                <p>The object's position is now changing</p>
+            </section>
+
+            <section>
+                <h2>Changing Objects Rotation</h2>
+                <p>The object's rotation is now changing</p>
+            </section>
+
+            <section>
+                <h2>Zooming object</h2>
+                <p>Bubble's are randomly moving in the window</p>
+            </section>
+
+            <section>
+                <h2>You are at the bottom</h2>
+                <p>The object will automatically rotate around y-axis </p>
+                <p>Now you can scroll back to the top to reverse the animation</p>
+            </section>
+        </main>
+    </body>
+</html>
